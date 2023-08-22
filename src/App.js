@@ -5,6 +5,8 @@ import Home from './component/Hero/home';
 import Features from './component/Features/features';
 import Portfolio from './component/Portfolio/Portfolio';
 import Resume from './component/Resume/Resume';
+import Testimonial from './component/Testimonial/Testimonial';
+import Blog from './component/Blog/Blog';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Features />
       <Portfolio />
       <Resume />
+      <Testimonial />
+      <Blog />
     </div>
   );
 }
