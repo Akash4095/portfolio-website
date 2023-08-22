@@ -19,7 +19,7 @@ const Home = () => {
             </h1>
             <h2>
               a
-              <span>
+              {/* <span>
                 <Typewriter
                   words={[" Professional Coder.", " Developer."]}
                   loop
@@ -29,7 +29,7 @@ const Home = () => {
                   deleteSpeed={50}
                   delaySpeed={1000}
                 />
-              </span>
+              </span> */}
             </h2>
 
             <p>
@@ -69,7 +69,7 @@ const Home = () => {
           </div>
           <div className="right">
             <div className="right_img">
-              <img src={hero} alt="" />
+              {/* <img src={hero} alt="" /> */}
             </div>
           </div>
         </div>
