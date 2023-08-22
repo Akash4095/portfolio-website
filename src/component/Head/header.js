@@ -48,18 +48,14 @@ const Header = () => {
                 <button className="home-btn">BUY NOW</button>
               </li>
             </ul>
-            <button className="toggle" onClick={() => setMobile(!Mobile)}>
-              {Mobile ? (
-                <Icon name="close" className="close home-btn" />
-              ) : (
-                <Icon name="bars" className="open" />
-              )}
+            <button className='toggle' onClick={() => setMobile(!Mobile)}>
+              {Mobile ? <i className='fas fa-times close home-btn'></i> : <i className='fas fa-bars open'></i>}
             </button>
           </div>
         </div>
       </header>
       <section>
-        
+
       </section>
     </>
   );
